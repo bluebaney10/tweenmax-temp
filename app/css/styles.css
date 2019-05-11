@@ -1,0 +1,36 @@
+.blue {
+  color: skyblue; }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.tween-hover {
+  position: relative;
+  width: 100%;
+  background-color: #1d1d1d; }
+  .tween-hover .box-hover {
+    position: relative;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    z-index: 3;
+    overflow: hidden; }
+    .tween-hover .box-hover .box-txt {
+      z-index: 5; }
+      .tween-hover .box-hover .box-txt .topic {
+        font-size: 20px; }
+      .tween-hover .box-hover .box-txt .desc {
+        font-size: 16px; }
+    .tween-hover .box-hover .box-fade {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 4;
+      cursor: pointer; }
