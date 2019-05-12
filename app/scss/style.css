@@ -1,62 +1,3 @@
-
-
-.blue{color:skyblue;}
-
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-.tween-hover{
-  position: relative;
-  width: 100%;
-  background-color:#1d1d1d;
-
-  .box-hover{
-    position: relative;
-    width: 100%;
-    height: auto;
-    color: #fff;
-    text-align: center;
-    z-index: 3;
-    overflow: hidden;
-    
-    
- .box-txt{
-   
-  z-index: 5;
-
- .topic{
-   font-size:20px;
-
- }
-
- .desc{
-   font-size: 16px;
-
- }
-
-} 
-
-.box-fade{ 
-  width:100%;
-  height:100%;
-  position: absolute;
-  left: 0;
-  top:0;
-  background-color: rgba(0,0,0,0.6);
-  z-index: 4;
-  cursor: pointer;
-}
-}
-
-}
-
-/* add font face */
 @font-face {
   font-family: 'icomoon';
   src:  url('fonts/icomoon.eot?w09w9z');
@@ -85,58 +26,22 @@
 
 .icon-list-arr-ico:before {
   content: "\e909";
-  font-size: 50px;
-  color: #1d1d1d;
 }
 .icon-location_ico:before {
   content: "\e908";
-  font-size: 50px;
 }
 .icon-bath_ico:before {
   content: "\e907";
-  font-size: 50px;
-  color: #1d1d1d;
 }
 .icon-bed_ico:before {
   content: "\e90c";
-  font-size: 50px;
-  color: #1d1d1d;
 }
 .icon-sq_ico:before {
   content: "\e90d";
-  font-size: 50px;
-  color: #1d1d1d;
 }
 .icon-like-icon:before {
   content: "\e906";
-  font-size: 50px;
 }
-
-
-
-
-.icon-qa_ico3:before {
-  content: "\e90a";
-  font-size: 50px;
-}
-.icon-qa_ico2:before {
-  content: "\e90b";
-  font-size: 50px;
-}
-.icon-qa-ico1:before {
-  content: "\e90e";
-  font-size: 50px;
-}
-.icon-arrow-right2:before {
-  content: "\ea3c";
-}
-.icon-arrow-left2:before {
-  content: "\ea40";
-}
-
-
-
-/* social icon */
 .icon-ig-ico:before {
   content: "\e900";
   color: #5a5a5a;
@@ -161,9 +66,18 @@
   content: "\e905";
   color: #5a5a5a;
 }
-
-
-
-
-
-.icon-pin-ico:hover:before{ color: aqua; cursor: pointer;}
+.icon-qa_ico_3:before {
+  content: "\e90a";
+}
+.icon-qa_ico2:before {
+  content: "\e90b";
+}
+.icon-qa-ico1:before {
+  content: "\e90e";
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+.icon-arrow-left2:before {
+  content: "\ea40";
+}
