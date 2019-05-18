@@ -38,8 +38,8 @@
 /* add font face */
 @font-face {
   font-family: 'icomoon';
-  src: url("fonts/icomoon.eot?w09w9z");
-  src: url("fonts/icomoon.eot?w09w9z#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?w09w9z") format("truetype"), url("fonts/icomoon.woff?w09w9z") format("woff"), url("fonts/icomoon.svg?w09w9z#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?egnkwt");
+  src: url("fonts/icomoon.eot?egnkwt#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?egnkwt") format("truetype"), url("fonts/icomoon.woff?egnkwt") format("woff"), url("fonts/icomoon.svg?egnkwt#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -56,53 +56,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.icon-list-arr-ico:before {
+.icon-hnav-ico:before {
   content: "\e909";
-  font-size: 50px;
-  color: #1d1d1d; }
+  font-size: 48px; }
 
 .icon-location_ico:before {
-  content: "\e908";
-  font-size: 50px; }
+  content: "\e908"; }
 
 .icon-bath_ico:before {
-  content: "\e907";
-  font-size: 50px;
-  color: #1d1d1d; }
+  content: "\e907"; }
 
 .icon-bed_ico:before {
-  content: "\e90c";
-  font-size: 50px;
-  color: #1d1d1d; }
+  content: "\e90c"; }
 
 .icon-sq_ico:before {
-  content: "\e90d";
-  font-size: 50px;
-  color: #1d1d1d; }
+  content: "\e90d"; }
 
 .icon-like-icon:before {
-  content: "\e906";
-  font-size: 50px; }
+  content: "\e906"; }
 
-.icon-qa_ico3:before {
-  content: "\e90a";
-  font-size: 50px; }
-
-.icon-qa_ico2:before {
-  content: "\e90b";
-  font-size: 50px; }
-
-.icon-qa-ico1:before {
-  content: "\e90e";
-  font-size: 50px; }
-
-.icon-arrow-right2:before {
-  content: "\ea3c"; }
-
-.icon-arrow-left2:before {
-  content: "\ea40"; }
-
-/* social icon */
 .icon-ig-ico:before {
   content: "\e900";
   color: #5a5a5a; }
@@ -126,6 +98,27 @@
 .icon-gg-ico:before {
   content: "\e905";
   color: #5a5a5a; }
+
+.icon-qa_ico_3:before {
+  content: "\e90a"; }
+
+.icon-qa_ico2:before {
+  content: "\e90b"; }
+
+.icon-qa-ico1:before {
+  content: "\e90e"; }
+
+.icon-small-nav:before {
+  content: "\e90f";
+  font-size: 48px; }
+
+.icon-arrow-right2:before {
+  content: "\ea3c";
+  font-size: 48px; }
+
+.icon-ctrl:before {
+  content: "\ea50";
+  font-size: 48px; }
 
 .icon-pin-ico:hover:before {
   color: aqua;
